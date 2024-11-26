@@ -30,8 +30,12 @@ td {
   border: 3px solid rgb(43, 129, 17);
  }
  #tab2{
-    position: relative;left: 300px;
+    position: relative;left: 350px;
+    z-index: 10;
  }
  #tab1{
-    position: relative;left: 5px;
+    position: relative;left: 150px;top: 50px;
  }
+a{
+  text-decoration: none;
+}

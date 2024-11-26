@@ -1,8 +1,7 @@
 body{
 	text-align: center;
 	 background-image: url('5_asfasw112.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    
 }
 #list{
 	border: none;
@@ -30,6 +29,17 @@ body{
 	font-size: 20px;
 	padding-top: 10px
 }
+#Exit{
+	position: relative;top: 25px;
+	border: none;
+	padding: 20px;
+	height: 40px;
+	border-radius: 30px;
+	font-size: 20px;
+	padding-top: 10px;
+	background-color: DarkRed;
+}
 h1{
 	color: white;
 }
+
