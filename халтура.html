@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <link rel="stylesheet" type="text/css" href="тренировка.css">
+  <meta charset="UTF-8">
+  <title>халтура</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <script type="text/javascript">
+    // function check()
+    //     {
+    //         var password = document.getElementById('pass').value;
+    //         var login = document.getElementById('user').value;
+    //         const dict = new Map();
+    //         dict.set("GojoSat", "123Zxc123Zxc$");
+    //         dict.set("Aboba_Pablovich", "antartik00");
+    //         dict.set("Yukki", "Yukki007");
+    //         dict.set("Kik_mii", "193728456");
+    //         dict.set("mikamilk", "Qwerty00");
+            
+    //         if (dict.has(login) && password == dict.get(login))
+    //         {
+    //             return true;
+    //         }
+    //         else
+    //         {
+    //             alert("Error");
+    //             return false;
+    //         }
+
+    //     }
+
+        function chec()
+        {
+            var password = document.getElementById('pass').value;
+            var login = document.getElementById('user').value;
+            const dict = new Map();
+            dict.set("GojoSat", "123Zxc123Zxc$");
+            dict.set("Aboba_Pablovich", "antartik00");
+            dict.set("Yukki", "Yukki007");
+            dict.set("Kik_mii", "193728456");
+            dict.set("mikamilk", "Qwerty00");
+            
+            if (dict.has(login) && password == dict.get(login))
+            {
+                return true;
+            }
+            else
+            {
+                alert("Error");
+                return false;
+            }
+			if (login == GojoSat) {
+				alert("Hello GojoSat")            	
+			}
+			else if (login == Aboba_Pablovich) {
+				alert("Hello Aboba_Pablovich")            	
+			}
+			else if (login == Yukki) {
+				alert("Hello Yukki")            	
+			}
+			else if (login == Kik_mii) {
+				alert("Hello Kik_mii")            	
+			}
+			else if (login == mikamilk) {
+				alert("Hello mikamilk")            	
+			}
+        }
+
+        
+  </script>
+ 
+</head>
+
+<body>
+  <!--
+Follow me on
+------------
+Codepen: https://codepen.io/mycnlz/
+Dribbble: https://dribbble.com/mycnlz
+Pinterest: https://pinterest.com/mycnlz/
+-->
+
+<div class='box'>
+  <div class='box-form'>
+    <div class='box-login-tab'></div>
+    <div class='box-login-title'>
+      <div class='i i-login'></div><h2>LOGIN</h2>
+    </div>
+    <div class='box-login'>
+      <div class='fieldset-body' id='login_form'>
+        <button onclick="openLoginInfo();" class='b b-form i i-more' title='Mais Informações'></button>
+            <p class='field'>
+          <label for='user'>USERNAME</label>
+          <input type='text' id='user' name='user' title='Username' />
+          <span id='valida' class='i i-warning'></span>
+        </p>
+          <p class='field'>
+          <label for='pass'>PASSWORD</label>
+          <input type='password' id='pass' name='pass' title='Password' />
+          <span id='valida' class='i i-close'></span>
+        </p>
+
+            <form action="Start.html">
+            <input onclick="return check()" type='submit' id='do_login' value='GET STARTED' title='Get Started' /></form>
+
+
+
+                 <form action="Start.html">
+            <input onclick="return chec()" type='submit' id='do_login' value='GET STARTED' title='Get Started' /></form>
+      </div>
+    </div>
+  </div>
+  
+                       
+
+
+
+ 
+
+</body>
+</html>
