@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.dark-red-bg {
+  background-color: #8B0000; /* Dark Red color */
+  color: #ffffff; /* White text color */
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+p {
+  font-size: 18px;
+}
